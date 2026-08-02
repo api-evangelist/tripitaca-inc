@@ -1,7 +1,22 @@
 aid: tripitaca-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tripitaca-inc.png
 name: Tripitaca, Inc.
-description: Tripitaca, Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Tripitaca is a Kenya-based travel and hospitality booking marketplace where travelers
+  get the best deals when they travel and where property owners list their properties. The platform
+  lets travelers receive offers from hosts and hotels, while hosts create curated packages and special
+  offers, see travelers interested in their area, and make them offers. Coverage spans destinations
+  including Nairobi, Mombasa, Nakuru, Kisumu, and Maasai Mara safari experiences. Backed by 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/tripitaca-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +26,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Travel
+- Hospitality
+- Booking
+- Marketplace
+- Hotels
+- Africa
+- Kenya
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +45,18 @@ maintainers:
 common:
 - type: Website
   url: https://tripitaca.com
+- type: SignUp
+  url: https://tripitaca.com/signup
+- type: Pricing
+  url: https://tripitaca.com/business/pricing
+- type: TermsOfService
+  url: https://tripitaca.com/terms-condition
+- type: PrivacyPolicy
+  url: https://tripitaca.com/privacy
+- type: DomainSecurity
+  url: security/tripitaca-inc-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

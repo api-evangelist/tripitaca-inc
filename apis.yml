@@ -22,7 +22,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tripitaca-inc.png
-name: Tripitaca, Inc.
+name: Tripitaca
 description: Tripitaca is a Kenya-based travel and hospitality booking marketplace where travelers
   get the best deals when they travel and where property owners list their properties. The platform
   lets travelers receive offers from hosts and hotels, while hosts create curated packages and special
@@ -71,3 +71,4 @@ x-enrichment:
   status: minimal
   artifacts_added: 1
   pass: local-v1
+x-legal-name: Tripitaca, Inc.
